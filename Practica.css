@@ -1,0 +1,38 @@
+#paragraph1{
+    border-style: solid;
+}
+
+#testo{
+    text-shadow: 2px 2px 2px red,-2px -3px 5px blue;
+}
+
+#testo1{
+    width:100px; 
+    height:100px;
+    background-color: white;
+    box-shadow: 2px 2px 3px black;
+}
+
+#testo3{
+    overflow: auto;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: red;
+    float: left;
+}
+
+body{
+    border: 2px solid black;
+    display: flow-root;
+}
+
+.odd{
+    font-family: 'Courier New', Courier, monospace;
+}
